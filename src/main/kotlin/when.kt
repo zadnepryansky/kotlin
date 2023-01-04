@@ -5,7 +5,7 @@ fun main() {
 
     // "add" == "+" and "minus" == "-"
 
-    val result = when (operation) {
+    val result : Int = when (operation) {
         "add" -> {
            x + y   // 1 example without val r = x + y
                                         // r
