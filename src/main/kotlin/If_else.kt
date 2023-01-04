@@ -14,14 +14,24 @@
 //    println("The end of program.")
 //}
 
-/**
- * Replace if_else using when
- */
 
+//Homework change type of code
 fun main(){
     val phoneLang : String = "uk"
 
-    val result : String = when(phoneLang)
-    }
+    when{
+        phoneLang == "uk" ->{
+            println("Привin свiт")
+        }
+        phoneLang == "eng" -> {
+            println("Hello World")
+        }
+        else ->{
+            println("1223_3322")
+        }
 
+    }
+    println("Ending program")
 }
+
+
